@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E23F75114F5D9840093344A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E23F75014F5D9840093344A /* UIKit.framework */; };
+		1E23F75314F5D9840093344A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E23F75214F5D9840093344A /* Foundation.framework */; };
+		1E23F75514F5D9840093344A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E23F75414F5D9840093344A /* CoreGraphics.framework */; };
+		1E23F75B14F5D9840093344A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E23F75914F5D9840093344A /* InfoPlist.strings */; };
+		1E23F75D14F5D9840093344A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23F75C14F5D9840093344A /* main.m */; };
+		1E23F76114F5D9840093344A /* STEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23F76014F5D9840093344A /* STEAppDelegate.m */; };
+		1E23F76414F5D9840093344A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E23F76214F5D9840093344A /* MainStoryboard.storyboard */; };
+		1E23F76714F5D9840093344A /* STEMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23F76614F5D9840093344A /* STEMasterViewController.m */; };
+		1E23F76A14F5D9840093344A /* STEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23F76914F5D9840093344A /* STEDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E23F74C14F5D9840093344A /* SimpleTextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E23F75014F5D9840093344A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E23F75214F5D9840093344A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E23F75414F5D9840093344A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E23F75814F5D9840093344A /* SimpleTextEditor-Info.plist */ = {isa = PBXFileReference; path = "SimpleTextEditor-Info.plist"; sourceTree = "<group>"; };
+		1E23F75A14F5D9840093344A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E23F75C14F5D9840093344A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E23F75E14F5D9840093344A /* SimpleTextEditor-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleTextEditor-Prefix.pch"; sourceTree = "<group>"; };
+		1E23F75F14F5D9840093344A /* STEAppDelegate.h */ = {isa = PBXFileReference; path = STEAppDelegate.h; sourceTree = "<group>"; };
+		1E23F76014F5D9840093344A /* STEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEAppDelegate.m; sourceTree = "<group>"; };
+		1E23F76314F5D9840093344A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1E23F76514F5D9840093344A /* STEMasterViewController.h */ = {isa = PBXFileReference; path = STEMasterViewController.h; sourceTree = "<group>"; };
+		1E23F76614F5D9840093344A /* STEMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEMasterViewController.m; sourceTree = "<group>"; };
+		1E23F76814F5D9840093344A /* STEDetailViewController.h */ = {isa = PBXFileReference; path = STEDetailViewController.h; sourceTree = "<group>"; };
+		1E23F76914F5D9840093344A /* STEDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E23F74914F5D9840093344A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E23F75114F5D9840093344A /* UIKit.framework in Frameworks */,
+				1E23F75314F5D9840093344A /* Foundation.framework in Frameworks */,
+				1E23F75514F5D9840093344A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E23F74114F5D9840093344A = {
+			isa = PBXGroup;
+			children = (
+				1E23F75614F5D9840093344A /* SimpleTextEditor */,
+				1E23F74F14F5D9840093344A /* Frameworks */,
+				1E23F74D14F5D9840093344A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E23F74D14F5D9840093344A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E23F74C14F5D9840093344A /* SimpleTextEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E23F74F14F5D9840093344A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E23F75014F5D9840093344A /* UIKit.framework */,
+				1E23F75214F5D9840093344A /* Foundation.framework */,
+				1E23F75414F5D9840093344A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E23F75614F5D9840093344A /* SimpleTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1E23F75F14F5D9840093344A /* STEAppDelegate.h */,
+				1E23F76014F5D9840093344A /* STEAppDelegate.m */,
+				1E23F76214F5D9840093344A /* MainStoryboard.storyboard */,
+				1E23F76514F5D9840093344A /* STEMasterViewController.h */,
+				1E23F76614F5D9840093344A /* STEMasterViewController.m */,
+				1E23F76814F5D9840093344A /* STEDetailViewController.h */,
+				1E23F76914F5D9840093344A /* STEDetailViewController.m */,
+				1E23F75714F5D9840093344A /* Supporting Files */,
+			);
+			path = SimpleTextEditor;
+			sourceTree = "<group>";
+		};
+		1E23F75714F5D9840093344A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E23F75814F5D9840093344A /* SimpleTextEditor-Info.plist */,
+				1E23F75914F5D9840093344A /* InfoPlist.strings */,
+				1E23F75C14F5D9840093344A /* main.m */,
+				1E23F75E14F5D9840093344A /* SimpleTextEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E23F74B14F5D9840093344A /* SimpleTextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E23F76D14F5D9840093344A /* Build configuration list for PBXNativeTarget "SimpleTextEditor" */;
+			buildPhases = (
+				1E23F74814F5D9840093344A /* Sources */,
+				1E23F74914F5D9840093344A /* Frameworks */,
+				1E23F74A14F5D9840093344A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTextEditor;
+			productName = SimpleTextEditor;
+			productReference = 1E23F74C14F5D9840093344A /* SimpleTextEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E23F74314F5D9840093344A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STE;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1E23F74614F5D9840093344A /* Build configuration list for PBXProject "SimpleTextEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E23F74114F5D9840093344A;
+			productRefGroup = 1E23F74D14F5D9840093344A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E23F74B14F5D9840093344A /* SimpleTextEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E23F74A14F5D9840093344A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E23F75B14F5D9840093344A /* InfoPlist.strings in Resources */,
+				1E23F76414F5D9840093344A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E23F74814F5D9840093344A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E23F75D14F5D9840093344A /* main.m in Sources */,
+				1E23F76114F5D9840093344A /* STEAppDelegate.m in Sources */,
+				1E23F76714F5D9840093344A /* STEMasterViewController.m in Sources */,
+				1E23F76A14F5D9840093344A /* STEDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E23F75914F5D9840093344A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E23F75A14F5D9840093344A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E23F76214F5D9840093344A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E23F76314F5D9840093344A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E23F76B14F5D9840093344A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E23F76C14F5D9840093344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E23F76E14F5D9840093344A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTextEditor/SimpleTextEditor-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTextEditor/SimpleTextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E23F76F14F5D9840093344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTextEditor/SimpleTextEditor-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTextEditor/SimpleTextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E23F74614F5D9840093344A /* Build configuration list for PBXProject "SimpleTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E23F76B14F5D9840093344A /* Debug */,
+				1E23F76C14F5D9840093344A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E23F76D14F5D9840093344A /* Build configuration list for PBXNativeTarget "SimpleTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E23F76E14F5D9840093344A /* Debug */,
+				1E23F76F14F5D9840093344A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E23F74314F5D9840093344A /* Project object */;
+}
