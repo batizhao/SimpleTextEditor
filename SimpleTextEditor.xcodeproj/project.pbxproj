@@ -23,16 +23,16 @@
 		1E23F75014F5D9840093344A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1E23F75214F5D9840093344A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1E23F75414F5D9840093344A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1E23F75814F5D9840093344A /* SimpleTextEditor-Info.plist */ = {isa = PBXFileReference; path = "SimpleTextEditor-Info.plist"; sourceTree = "<group>"; };
+		1E23F75814F5D9840093344A /* SimpleTextEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTextEditor-Info.plist"; sourceTree = "<group>"; };
 		1E23F75A14F5D9840093344A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E23F75C14F5D9840093344A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1E23F75E14F5D9840093344A /* SimpleTextEditor-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleTextEditor-Prefix.pch"; sourceTree = "<group>"; };
-		1E23F75F14F5D9840093344A /* STEAppDelegate.h */ = {isa = PBXFileReference; path = STEAppDelegate.h; sourceTree = "<group>"; };
+		1E23F75E14F5D9840093344A /* SimpleTextEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTextEditor-Prefix.pch"; sourceTree = "<group>"; };
+		1E23F75F14F5D9840093344A /* STEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEAppDelegate.h; sourceTree = "<group>"; };
 		1E23F76014F5D9840093344A /* STEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEAppDelegate.m; sourceTree = "<group>"; };
 		1E23F76314F5D9840093344A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1E23F76514F5D9840093344A /* STEMasterViewController.h */ = {isa = PBXFileReference; path = STEMasterViewController.h; sourceTree = "<group>"; };
+		1E23F76514F5D9840093344A /* STEMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEMasterViewController.h; sourceTree = "<group>"; };
 		1E23F76614F5D9840093344A /* STEMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEMasterViewController.m; sourceTree = "<group>"; };
-		1E23F76814F5D9840093344A /* STEDetailViewController.h */ = {isa = PBXFileReference; path = STEDetailViewController.h; sourceTree = "<group>"; };
+		1E23F76814F5D9840093344A /* STEDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEDetailViewController.h; sourceTree = "<group>"; };
 		1E23F76914F5D9840093344A /* STEDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
